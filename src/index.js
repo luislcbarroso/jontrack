@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { concat } from 'ramda'
 import cors from 'cors'
 import express from 'express'
-import { getPlacesNearby } from './Clients/maps'
+import { getPlacesNearby } from './Clients/maps.js'
 
 const app = express()
 app.use(cors())
