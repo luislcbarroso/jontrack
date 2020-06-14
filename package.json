@@ -1,0 +1,34 @@
+{
+  "name": "jontrack",
+  "version": "1.0.0",
+  "description": "Back end application for the CCR hackathon",
+  "main": "./src/index.js",
+  "scripts" : {
+    "dev": "nodemon --exec sucrase-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luislcbarroso/jontrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luislcbarroso/jontrack/issues"
+  },
+  "homepage": "https://github.com/luislcbarroso/jontrack#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.11.1",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sucrase": "^3.15.0"
+  },
+  "keywords": []
+}
