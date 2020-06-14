@@ -4,7 +4,8 @@
   "description": "Back end application for the CCR hackathon",
   "main": "./src/index.js",
   "scripts": {
-    "dev": "nodemon --exec sucrase-node ./src/index.js"
+    "dev": "nodemon --exec sucrase-node ./src/index.js",
+    "start": "nodemon --exec sucrase-node ./src/index.js"
   },
   "repository": {
     "type": "git",
